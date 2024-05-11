@@ -17,7 +17,7 @@ export default function App() {
         <Navbar/>
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside" paddingX={3}>
+        <GridItem area="aside" paddingX={2}>
           <GenreList/>
         </GridItem>
       </Show>
