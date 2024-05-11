@@ -12,7 +12,7 @@ export default function App() {
       </GridItem>
       <Show above="lg">
         <GridItem area="aside">
-          
+          Aside
         </GridItem>
       </Show>
       <GridItem area="main">
