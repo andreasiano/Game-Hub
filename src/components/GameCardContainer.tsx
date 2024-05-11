@@ -7,6 +7,6 @@ interface Props {
 
 export default function GameCardContainer({children}: Props) {
   return (
-    <Box width='100%' borderRadius={10} overflow={'hidden'}>{children}</Box>
+    <Box boxShadow="var(--chakra-shadows-base)" width='100%' borderRadius={10} overflow={'hidden'}>{children}</Box>
   )
 }
