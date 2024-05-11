@@ -11,7 +11,7 @@ interface Props {
 export default function GameCard({game}: Props) {
   return (
     <Card>
-      <Image src={getCroppedImageUrl(game.background_image)} height="200px" objectFit="cover"/>
+      <Image src={getCroppedImageUrl(game.background_image)}  objectFit="cover"/>
       <CardBody>
         <Heading marginY={5} fontSize={'2xl'}>
           {game.name}
