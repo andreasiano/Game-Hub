@@ -17,7 +17,7 @@ export default function GameCard({game}: Props) {
           {game.name}
         </Heading>
         <HStack justifyContent={'space-between'}>
-          <PlatformIconsList platforms={game.parent_platforms.map(p => p.platform)}/>
+          <PlatformIconsList parent_platforms={game.parent_platforms.map(p => p.platform)}/>
           <CriticScore score={game.metacritic}/>
         </HStack>
       </CardBody>
